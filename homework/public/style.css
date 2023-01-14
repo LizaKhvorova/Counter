@@ -1,0 +1,62 @@
+.body {
+  position: absolute;
+  width: 1440px;
+  height: 768px;
+  background: #0837B0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 500px;
+}
+
+#counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 176px; 
+  background: #FFFFFF;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.btns {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+}
+
+#inc {
+  width: 65px;
+  height: 65px;
+  background: url('svg/Plus.svg') no-repeat center;
+  background-color: #089C20;
+  border-radius: 4px;
+}
+
+#dec {
+  width: 65px;
+  height: 65px;
+  background: url('svg/Minus.svg') no-repeat center;
+  background-color: #E7AA10;
+  border-radius: 4px;
+}
+
+#res {
+  width: 65px;
+  height: 65px;
+  background: url('svg/Reset.svg') no-repeat center;
+  background-color: #CF1C1C;
+  border-radius: 4px; 
+}
